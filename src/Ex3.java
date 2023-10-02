@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Ex3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-//        System.out.println("Rectangle side 1:");
-//        double s1 = Double.parseDouble(input.nextLine());
-//        System.out.println("Rectangle side 2:");
-//        double s2 = Double.parseDouble(input.nextLine());
-//        System.out.println(rectanglePerimeter(s1, s2));
-//        System.out.println("Insert a number:");
-//        System.out.println(evenOdd(Integer.parseInt(input.nextLine())));
-        System.out.println("Triangle side 1:");
+        System.out.println("Rectangle side 1:");
         double s1 = Double.parseDouble(input.nextLine());
-        System.out.println("Triangle side 2:");
+        System.out.println("Rectangle side 2:");
         double s2 = Double.parseDouble(input.nextLine());
+        System.out.println(rectanglePerimeter(s1, s2));
+        System.out.println("Insert a number:");
+        System.out.println(evenOdd(Integer.parseInt(input.nextLine())));
+        System.out.println("Triangle side 1:");
+        s1 = Double.parseDouble(input.nextLine());
+        System.out.println("Triangle side 2:");
+        s2 = Double.parseDouble(input.nextLine());
         System.out.println("Triangle side 3:");
         double s3 = Double.parseDouble(input.nextLine());
         System.out.println(trianglePerimeter(s1, s2, s3));
